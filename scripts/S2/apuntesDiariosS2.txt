@@ -1,0 +1,27 @@
+APUNTES GENERALES SEMANA 2 - P2
+
+Estructura for-each: 
+
+    for (char& car : text) 
+    //Esta es una forma de recorrer cada carácter de la cadena text utilizando una estructura for-each de C++.
+    // El bucle for-each se ejecutará una vez por cada carácter en text.
+    //La estructura for-each en C++ es una forma de recorrer los elementos de un contenedor, como un array o una cadena de caracteres, de manera más sencilla y legible.
+    //La sintaxis general es: for (tipo_elemento& elemento : contenedor) { ... }.
+    // la estructura for-each de C++ asume que el contenedor que estás iterando tiene elementos del mismo tipo
+
+
+
+Caracter NULO vs Caracter blanck
+if (previo == '\0' || isblank(previo))
+    // Esta condición verifica si el carácter anterior (previo) es el carácter nulo ('\0') o es un espacio en blanco (isblank(previo)).
+    // Si se cumple esta condición, significa que el carácter actual car es la primera letra de una palabra.
+    // El carácter nulo ('\0'). Indica el final de una cadena.
+    // Tiene el valor numérico 0 y no es visible cuando se imprime.
+    // Un espacio en blanco, por otro lado, es un carácter visible que representa un espacio entre palabras. Su valor numérico es 32 (en ASCII).
+
+El operador "?" como un if else más SIMPLE y RAPIDO
+    El operador ?: en C++ se conoce como el operador ternario o condicional.
+    Su función es proporcionar una forma más concisa de escribir una declaración if-else simple.
+    condición ? valor_si_verdadero : valor_si_falso
+
+

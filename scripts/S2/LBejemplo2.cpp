@@ -1,0 +1,1 @@
+// Es simple y se hace con un if y switch
